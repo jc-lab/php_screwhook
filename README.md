@@ -10,9 +10,15 @@ install
 
 pw9screw / screwim 로 암호화된 php파일을 실행하면 /tmp/파일이름.dec 으로 복호화된 코드가 저장됨.
 
+
+
 * WARNING!
+
 php.ini에
+
 extension=screwhook.so
+
 extension=screwim.so
-이것처럼 screwhook가 먼저 .
+
+이것처럼 screwhook가 먼저 와야함.
 
